@@ -35,11 +35,11 @@ spec:
                 name: moonode-api-al-adhan-secret
           livenessProbe:
             httpGet:
-              path: /api/users/test
+              path: /v1/htogcalendar/12/1445
               port: http
           readinessProbe:
             httpGet:
-              path: /api/users/test
+              path: /v1/htogcalendar/12/1445
               port: http
           resources:
 {{ toYaml .Values.resources | indent 12 }}
