@@ -8,7 +8,7 @@ image:
   repository: ghcr.io/moonode-network/api-al-adhan
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "cc04dc203a66b9d642c17cb6fb9b4d2711b8f189"
+  tag: "244b33305ab0b9de640ec7c9e67694c14cb429d4"
 
 imagePullSecrets: regcred
 nameOverride: ""
